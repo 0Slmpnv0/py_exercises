@@ -1,1 +1,1 @@
-# exercises
+# py_exercises
