@@ -1,10 +1,13 @@
+from typing import Any
+
+
 class Stack:
-    def __init__(self, numberass=None):
+    def __init__(self, numberass:Any = None):
         if numberass is None:
             numberass = []
         self.__numberass = numberass
 
-    def run_command(self, command):
+    def run_command(self, command:str):
 
         if command == 'DROP':
             if not self.__numberass:
